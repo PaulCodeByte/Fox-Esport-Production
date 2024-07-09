@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1A2A43;
+}
+
+main {
+    margin: 80px 20px;
+    color: #FFFFFF;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cose, .storia, .vantaggi {
+    display: flex;
+    align-items: center;
+    background-color: #5a6c91;
+    padding: 10px;
+    border-radius: 10px;
+    height: max(350px, 60vh);
+}
+
+.cose img, .storia img, .vantaggi img {
+    width: max(500px, 50vh);
+    height: auto;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.cose p, .storia p, .vantaggi p {
+    color: white;
+    margin: 0;
+    line-height: 28px;
+    font-size: 17px;
+    width: 500px;
+}
+
+.cose p, .vantaggi p{
+    text-align: left;
+}
